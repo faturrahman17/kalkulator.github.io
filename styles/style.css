@@ -1,0 +1,103 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap')
+
+/* VARIABLES */
+:root {
+    --primary-color: #fb6a27;
+    --dark-color: #0f0f0f;
+    --gray-color: gray;
+
+    --h1-font-size: 40px;
+    --h2-font-size: 32px;
+    --small-font-size: 14px;
+}
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* GLOBAL CSS */
+section {
+    padding: 70px 0;
+}
+
+section .section-title {
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-orange {
+    background-color: orange;
+    color: white
+}
+
+.btn-orange:hover {
+    background-color: black;
+    color: white
+}
+
+.text-orange {
+    color: orange
+}
+
+.text-dark {
+    color: black
+}
+
+.fs-7 {
+    font-size: var(--small-font-size);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: orange
+}
+
+
+/* CSS PER SECTION */
+
+/* NAVBAR */
+.navbar .nav-item .nav-link:hover, .navbar .nav-item .nav-link:active {
+    color: greenyellow;
+}
+
+/* HEADER */
+.header-section .header-title {
+    font-size: var(--h1-font-size);
+}
+
+.header-section, footer {
+    color: black;
+}
+
+header.section .header-img {
+    width: 90%;
+}
+
+/* PORTFOLIO */
+.portfolio-section .card .card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* FOOTER */
+footer {
+    padding: 10px 0;
+    color: white;
+    background: black;
+}
+
